@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pixelify+Sans:wght@500&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pixelify+Sans:wght@500&family=Playpen+Sans&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  
+  width: 100%;
+  margin: 0;
+}
+.header {
+    background: #a8ff78;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px;
+    /*background-color: #78ffd6;*/
+    box-shadow: 0 5px 15px rgb(123, 129, 118, 0.5);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+.title-ecommers {
+    font-family: 'Tilt Neon', sans-serif;
+    text-decoration: none;
+    color: green;
+    font-weight: 700;
+    
+}
+.navbar {
+    font-family: 'Playpen Sans', cursive;
+}
+.navbar-list {
+    display: flex;
+    align-items: center;/*Para mantener las cosas en el centro y no se vayan de un lado a otro en la pantalla*/
+    align-content: center;
+}
+.navbar-list li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+.navbar-list li:hover {
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.hero {
+    background-image: url(https://res.cloudinary.com/dbhtbf2uu/image/upload/v1698369058/imageskodigo/mbmthyxnzyduprnkimm0.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    /*object-fit: contain;*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+/*Products section style*/
+.product_section { text-align: center;}
+.product_section .products_container {margin: 1%;}
+.product_section .product img {width: 100%; border-radius: 10px;}
+.product_section .product {
+    width: 25%;
+    min-width: 250px;
+    padding: 10px 13px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.product_section .product .description {
+    text-align: start;
+    
+    padding: 10px 0;
+}
+.product_section .product span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #606060;
+    font-size: 1.1rem;
+}
+.product_section .product h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+.product_section .product p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.product_section .product h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+/*Footer Style*/
+footer {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.glass {
+    background-color: white;
+    background: -webkit-linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.3));
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.5) );
+}
+footer .options-container {
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Playpen Sans', cursive;
+    text-align: left;
+}
+footer ul {list-style-type: none;}
+footer .options-container ul li {margin: 1%;}
+.options-container ul .firsttitle {font-weight: 600; font-size: 1.3rem;}
+.options-container ul li a {text-decoration: none; color: #606060;}
+footer .options-container ul li a:hover {color: green; transition: all 0.3s ease-in;}
+footer .social_media h5 {font-size:0.8rem; color: #606060; font-family: 'Montserrat', sans-serif;}
+footer .social_media ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .social_media img {height: 2vh;}
+footer .payment_methos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+footer .payment_methos img { height: 2vh;}
+footer h4 {text-align: center; font-family: 'Ubuntu', sans-serif;}
+footer .reserved {text-align: center; color: #606060; font-family: 'Nunito', sans-serif;}
